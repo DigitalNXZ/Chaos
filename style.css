@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@800&display=swap');
+
+.link, .name{
+font-family: 'Grenze Gotisch', cursive;
+}
+
+:root, .site-theme-contrast, .site-theme-dark {
+    cursor: url("https://i.imgur.com/K381qDF.png") 4 12, auto;
+}
+
+a, .nav-btn, .user[data-v-4fbac4e1], .search[data-v-4fbac4e1] svg, .dropdown[data-v-5445dac8], .actions .action[data-v-5e514b1e], .button, .load-more[data-v-6f203cf2], .hohColourPicker input[type="color"], .hohColourPicker select, .hohColourPicker .hohCheckbox, .theme-preview[data-v-82d0a8cc], .markdown-editor div, .el-dropdown[data-v-09492909], .theme-switch path, .edit svg, .filter-group span, .el-dropdown-menu__item, .hide-spoiler .el-icon-circle-close, .markdown .youtube, .entry-dropdown[data-v-5e514b1e] 
+{ cursor: url("https://i.imgur.com/qyIo0ZQ.png") 9 2, pointer; }
+
+
+.input[data-v-93c5960c] .el-textarea__inner {
+    cursor: url(https://i.imgur.com/QLfWcPy.png) 16 3, auto !important;
+}
+
+
+.site-theme-dark
+{
+--color-background: 20,20,20;
+--color-foreground: 10,10,10;
+--color-foreground-grey: 10,10,10;
+}
+
+
+
+
+.banner-content h1
+{
+background-color:black;
+} 
+
+
+.user-page-unscoped.red .progress .bar {
+background: linear-gradient(90deg, rgba(97,24,24,1) 0%, rgba(171,42,42,1) 100%);
+border-radius:2px;
+}
+
+.nav[data-v-4fbac4e1]{
+background-color:black;
+}
+
+.site-theme-dark .nav-unscoped.transparent{
+background: rgba(44,44,44,.5);
+}
+
+.about .content-wrap[data-v-2cf72664]{
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+a[href="/user/ZeroZeroNi/"]:not(.avatar):not(.user):not(.link):not(.primary-link) {
+    visibility: hidden;
+    position: relative;
+}
+
+a[href="/user/ZeroZeroNi/"]:not(.avatar):not(.user):not(.link):not(.primary-link):after {
+    visibility: visible;
+    content: "Zero Two";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.nav-wrap a:nth-of-type(1){
+    visibility: hidden;
+    position: relative;
+}
+
+.nav-wrap a:nth-of-type(1):after {
+    visibility: visible;
+    content: "Sweet Home";
+}
+
+.banner {
+background-image: url("https://media.giphy.com/media/l0Ft3iP1drsffqpH7N/giphy.gif") !important; 
+    height: 440px !important;
+    
+}
+
+
+.banner-content .name
+{
+filter: drop-shadow(4px -4px 6px black);
+  font-size: 250px;
+ -webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(270deg, rgba(0,0,0,1) 1%, rgba(255,0,0,0.5) 100%), url(https://i.gifer.com/Vo2j.gif) repeat;
+ -webkit-background-clip: text;
+  margin-top: -140px;   
+    
+} 
+
+
+.banner-content .avatar[data-v-5445dac8]{
+    max-width: 250px;
+    max-height:250px;
+    position: absolute !important;
+    /* left: calc(50% - 111px); */
+    margin-bottom:-100px;
+    z-index:1;
+}
+
+
+
+
+.banner-content[data-v-5445dac8] {
+    display:flex;
+    display: flex;
+    height: 250px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.hohDownload, .actions{
+visibility: hidden;
+}
+
+.wrap[data-v-82d0a8cc], .footer[data-v-82d0a8cc] {
+  margin: 0;
+}
+
+.user.user-page-unscoped {
+  padding-bottom: 70px;
+}
+
+.follower-badge[data-v-5445dac8] {
+ visibility: hidden;
+}

@@ -100,6 +100,10 @@ a,
     margin: 0;
 }
 
+.user.user-page-unscoped {
+  padding-bottom: 70px;
+}
+
 /* --- About Me Box & Progress Bar --- */
 .about .content-wrap[data-v-2cf72664] {
     background-color: rgba(0, 0, 0, 0.4);

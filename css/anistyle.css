@@ -113,13 +113,15 @@ a,
     color: #a0b1c5;
 }
 
-.primary-links{
-    background-color: rgba(20,20,20) !important;
+.primary-links, .progress{
+    background-color: --color-background !important;
 }
 
 .browse-wrap .footer, .dropdown .footer, .footer{
-    background-color: rgba(10,10,10) !important;
+    background-color: --color-foreground !important;
 }
+
+
 
 
 /* --- About Me Box & Progress Bar --- */

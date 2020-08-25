@@ -103,6 +103,25 @@ a,
   padding-bottom: 70px;
 }
 
+.site-theme-dark .nav-unscoped.transparent {
+    background: rgba(10, 10, 10, 0.3);
+    color: #a0b1c5;
+}
+
+.site-theme-dark .nav-unscoped.transparent:hover {
+    background: rgba(10, 10, 10, 0.9);
+    color: #a0b1c5;
+}
+
+.primary-links{
+    background-color: rgba(20,20,20) !important;
+}
+
+.browse-wrap .footer, .dropdown .footer, .footer{
+    background-color: rgba(10,10,10) !important;
+}
+
+
 /* --- About Me Box & Progress Bar --- */
 .about .content-wrap[data-v-2cf72664] {
     background-color: rgba(0, 0, 0, 0.4);

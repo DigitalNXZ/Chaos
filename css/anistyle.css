@@ -21,6 +21,7 @@
 
 a,
 .nav-btn,
+.desktop.preview,
 .character[data-v-45543a61],
 .studio[data-v-45543a61],
 .media[data-v-45543a61],
@@ -113,7 +114,6 @@ a,
 /* --- Custom Button Names --- */
 .nav-wrap a:nth-of-type(1) {
     visibility: hidden;
-    position: relative;
 }
 
 .nav-wrap a:nth-of-type(1):after {

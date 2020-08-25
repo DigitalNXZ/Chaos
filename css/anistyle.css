@@ -113,14 +113,17 @@ a,
     color: #a0b1c5;
 }
 
-.primary-links, .progress{
-    background-color: var(--color-background) !important;
+.primary-links{
+    background-color: rgba(20,20,20) !important;
 }
 
 .browse-wrap .footer, .dropdown .footer, .footer{
-    background-color: var(--color-foreground) !important;
+    background-color: rgba(10,10,10) !important;
 }
 
+.progress{
+    background-color: rgba(30,10,5) !important;
+}
 
 
 

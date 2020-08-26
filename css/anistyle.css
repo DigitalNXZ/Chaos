@@ -180,6 +180,27 @@ a,
     border-radius: 2px;
 }
 
+.about .content-wrap{
+    position:relative;
+    max-height: 100% !important;
+}
+
+.markdown .markdown-spoiler.spoiler-visible i.hide-spoiler {
+    text-align:center;
+    opacity: 0.5;
+    padding:3px;
+    cursor: url("https://i.imgur.com/qyIo0ZQ.png") 9 2, pointer;
+    font-size:20px;
+        transition: color 0.5s !important;
+}
+.markdown .markdown-spoiler.spoiler-visible i.hide-spoiler::before {
+    content:"close";
+}
+
+.markdown .markdown-spoiler.spoiler-visible i.hide-spoiler:hover {
+    color: #ff3535;
+}
+
 
 /* --- Custom Buttons --- */
 a{

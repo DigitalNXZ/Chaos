@@ -238,8 +238,7 @@ a[href="/user/ZeroZeroNi/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 div .actions .dropdown.el-dropdown, 
 div .actions .dropdown-menu-8865,
 div .actions .el-dropdown-link .el-dropdown-selfdefine, 
-div .actions .el-icon-arrow-down, 
-.follower-badge {
+div .actions .el-icon-arrow-down {
     visibility: hidden !important;
 }
 
